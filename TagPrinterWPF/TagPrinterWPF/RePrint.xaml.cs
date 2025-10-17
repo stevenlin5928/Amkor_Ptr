@@ -54,11 +54,13 @@ namespace TagPrinterWPF
             string ?_tagid = Combo_TagID.SelectedItem.ToString();
             string ?_opid = Txt_OPID.Text;
 
-            
 
-            UtilityPrt prt = new UtilityPrt();
-            prt.ConnectToPrt(App.PTR_IP);
-            prt.SendPrintString(_sid, _tagid, _requestno, _opid);
+
+            //UtilityPrt prt = new UtilityPrt();
+            
+            UtilityPrt.ConnectToPrt(App.PTR_IP);
+            UtilityPrt.SendPrintString(_sid, _tagid, _requestno, _opid);
+
             objWhiteList wlist = new objWhiteList();
             wlist.UpdateEmpid(_sid,_tagid,_opid);
 
@@ -66,6 +68,9 @@ namespace TagPrinterWPF
 
         private void Combo_Request_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
+
+            Combo_SID.Items.Clear();
+
             foreach (var item in _list)
             {
                 if (item.RequestNo == Combo_Request.SelectedItem.ToString())
@@ -79,10 +84,13 @@ namespace TagPrinterWPF
 
         private void Combo_SID_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
+            Combo_TagID.Items.Clear();
+
             foreach (var item in _list)
             {
-                if (item.SID == Combo_SID.SelectedItem.ToString())
+                if (item.SID == Combo_SID.SelectedItem.ToString() && item.RequestNo == Combo_Request.SelectedItem.ToString())
                 {
+                    
                     if (!Combo_TagID.Items.Contains(item.TagID))
                         Combo_TagID.Items.Add(item.TagID);
                 }

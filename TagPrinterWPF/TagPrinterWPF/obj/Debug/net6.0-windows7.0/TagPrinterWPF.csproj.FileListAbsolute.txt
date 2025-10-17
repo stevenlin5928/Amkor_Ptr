@@ -297,3 +297,4 @@ D:\GitHub\Amkor_Ptr\TagPrinterWPF\TagPrinterWPF\obj\Debug\net6.0-windows7.0\refi
 D:\GitHub\Amkor_Ptr\TagPrinterWPF\TagPrinterWPF\obj\Debug\net6.0-windows7.0\TagPrinterWPF.pdb
 D:\GitHub\Amkor_Ptr\TagPrinterWPF\TagPrinterWPF\obj\Debug\net6.0-windows7.0\TagPrinterWPF.genruntimeconfig.cache
 D:\GitHub\Amkor_Ptr\TagPrinterWPF\TagPrinterWPF\obj\Debug\net6.0-windows7.0\ref\TagPrinterWPF.dll
+D:\GitHub\Amkor_Ptr\TagPrinterWPF\TagPrinterWPF\obj\Debug\net6.0-windows7.0\TagPrinterWPF.sourcelink.json

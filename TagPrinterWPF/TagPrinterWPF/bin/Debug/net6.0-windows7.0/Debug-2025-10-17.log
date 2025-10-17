@@ -221,3 +221,111 @@ Processlog stop!
 [1017.143659]: Printer IP: [10.185.235.30] 	-- 16/ConnectToPrt/UtilityPrt.cs
 [1017.143700]: SID:000000000000011111, TagID:, RequestNo: 	-- 174/Txt_SID_KeyDown/Barcode2Print.xaml.cs
 Processlog stop!
+[1017.150438]: [PTR_IP]:[10.185.235.30] 	-- 125/LoadDataBaseConfig/Utility.cs
+[1017.150438]: [enablePTR]:[true] 	-- 125/LoadDataBaseConfig/Utility.cs
+[1017.150500]: {http://www.w3.org/2001/XMLSchema}element: ----> 	-- 116/SOAP_CheckOpPermissions/AmkorMRSServices.cs
+[1017.150500]: NewDataSet: ---->90160 	-- 116/SOAP_CheckOpPermissions/AmkorMRSServices.cs
+[1017.150500]: resp: ---->Success, return: True 	-- 134/SOAP_CheckOpPermissions/AmkorMRSServices.cs
+[1017.150502]: Printer IP: [10.185.235.30] 	-- 16/ConnectToPrt/UtilityPrt.cs
+[1017.150502]: connecting to printer: True 	-- 35/ConnectToPrt/UtilityPrt.cs
+[1017.150506]: Printer IP: [10.185.235.30] 	-- 16/ConnectToPrt/UtilityPrt.cs
+[1017.150506]: SID:000000000000000111, TagID:, RequestNo: 	-- 174/Txt_SID_KeyDown/Barcode2Print.xaml.cs
+[1017.164747]: [PTR_IP]:[10.185.235.30] 	-- 125/LoadDataBaseConfig/Utility.cs
+[1017.164747]: [enablePTR]:[true] 	-- 125/LoadDataBaseConfig/Utility.cs
+[1017.164807]: {http://www.w3.org/2001/XMLSchema}element: ----> 	-- 116/SOAP_CheckOpPermissions/AmkorMRSServices.cs
+[1017.164807]: NewDataSet: ---->90160 	-- 116/SOAP_CheckOpPermissions/AmkorMRSServices.cs
+[1017.164807]: resp: ---->Success, return: True 	-- 134/SOAP_CheckOpPermissions/AmkorMRSServices.cs
+[1017.164827]: Printer IP: [10.185.235.30] 	-- 16/ConnectToPrt/UtilityPrt.cs
+[1017.164827]: connecting to printer: True 	-- 35/ConnectToPrt/UtilityPrt.cs
+[1017.164827]: PtrTcpComm.Connected:True 	-- 104/SendPrintString/UtilityPrt.cs
+[1017.164827]: update white_list set empid='90160' where SID='000000000101425042' AND TagID='000310' 	-- 238/UpdateEmpid/objWhiteList.cs
+[1017.164837]: Printer IP: [10.185.235.30] 	-- 16/ConnectToPrt/UtilityPrt.cs
+[1017.164837]: PtrTcpComm.Connected:True 	-- 104/SendPrintString/UtilityPrt.cs
+[1017.164837]: update white_list set empid='90160' where SID='000000000101425042' AND TagID='000310' 	-- 238/UpdateEmpid/objWhiteList.cs
+[1017.164852]: Printer IP: [10.185.235.30] 	-- 16/ConnectToPrt/UtilityPrt.cs
+[1017.164859]: Printer IP: [10.185.235.30] 	-- 16/ConnectToPrt/UtilityPrt.cs
+[1017.164859]: SID:000000000000011111, TagID:, RequestNo: 	-- 174/Txt_SID_KeyDown/Barcode2Print.xaml.cs
+[1017.164909]: Printer IP: [10.185.235.30] 	-- 16/ConnectToPrt/UtilityPrt.cs
+[1017.164909]: PtrTcpComm.Connected:True 	-- 104/SendPrintString/UtilityPrt.cs
+[1017.164909]: update white_list set empid='90160' where SID='000000000101429761' AND TagID='00031A' 	-- 238/UpdateEmpid/objWhiteList.cs
+Processlog stop!
+[1017.165122]: [PTR_IP]:[10.185.235.30] 	-- 125/LoadDataBaseConfig/Utility.cs
+[1017.165122]: [enablePTR]:[true] 	-- 125/LoadDataBaseConfig/Utility.cs
+[1017.165135]: {http://www.w3.org/2001/XMLSchema}element: ----> 	-- 116/SOAP_CheckOpPermissions/AmkorMRSServices.cs
+[1017.165135]: NewDataSet: ---->90160 	-- 116/SOAP_CheckOpPermissions/AmkorMRSServices.cs
+[1017.165135]: resp: ---->Success, return: True 	-- 134/SOAP_CheckOpPermissions/AmkorMRSServices.cs
+[1017.165139]: Printer IP: [10.185.235.30] 	-- 16/ConnectToPrt/UtilityPrt.cs
+[1017.165139]: connecting to printer: True 	-- 36/ConnectToPrt/UtilityPrt.cs
+[1017.165143]: Printer IP: [10.185.235.30] 	-- 16/ConnectToPrt/UtilityPrt.cs
+[1017.165143]: 不需要連線： PtrTcpComm.Connected: True 	-- 25/ConnectToPrt/UtilityPrt.cs
+[1017.165143]: SID:000000000000011111, TagID:, RequestNo: 	-- 174/Txt_SID_KeyDown/Barcode2Print.xaml.cs
+[1017.165151]: Printer IP: [10.185.235.30] 	-- 16/ConnectToPrt/UtilityPrt.cs
+[1017.165151]: 不需要連線： PtrTcpComm.Connected: True 	-- 25/ConnectToPrt/UtilityPrt.cs
+[1017.165151]: PtrTcpComm.Write--->PtrTcpComm.Connected:True 	-- 105/SendPrintString/UtilityPrt.cs
+[1017.165151]: update white_list set empid='90160' where SID='000000000101429761' AND TagID='00031A' 	-- 238/UpdateEmpid/objWhiteList.cs
+Processlog stop!
+[1017.165631]: [PTR_IP]:[10.185.235.30] 	-- 125/LoadDataBaseConfig/Utility.cs
+[1017.165631]: [enablePTR]:[true] 	-- 125/LoadDataBaseConfig/Utility.cs
+[1017.165642]: {http://www.w3.org/2001/XMLSchema}element: ----> 	-- 116/SOAP_CheckOpPermissions/AmkorMRSServices.cs
+[1017.165642]: NewDataSet: ---->90160 	-- 116/SOAP_CheckOpPermissions/AmkorMRSServices.cs
+[1017.165642]: resp: ---->Success, return: True 	-- 134/SOAP_CheckOpPermissions/AmkorMRSServices.cs
+Processlog stop!
+[1017.165907]: [PTR_IP]:[10.185.235.30] 	-- 125/LoadDataBaseConfig/Utility.cs
+[1017.165907]: [enablePTR]:[true] 	-- 125/LoadDataBaseConfig/Utility.cs
+[1017.165921]: {http://www.w3.org/2001/XMLSchema}element: ----> 	-- 116/SOAP_CheckOpPermissions/AmkorMRSServices.cs
+[1017.165921]: NewDataSet: ---->90160 	-- 116/SOAP_CheckOpPermissions/AmkorMRSServices.cs
+[1017.165921]: resp: ---->Success, return: True 	-- 134/SOAP_CheckOpPermissions/AmkorMRSServices.cs
+[1017.171333]: [PTR_IP]:[10.185.235.30] 	-- 125/LoadDataBaseConfig/Utility.cs
+[1017.171333]: [enablePTR]:[true] 	-- 125/LoadDataBaseConfig/Utility.cs
+[1017.171455]: {http://www.w3.org/2001/XMLSchema}element: ----> 	-- 116/SOAP_CheckOpPermissions/AmkorMRSServices.cs
+[1017.171455]: NewDataSet: ---->90160 	-- 116/SOAP_CheckOpPermissions/AmkorMRSServices.cs
+[1017.171455]: resp: ---->Success, return: True 	-- 134/SOAP_CheckOpPermissions/AmkorMRSServices.cs
+[1017.171704]: [PTR_IP]:[10.185.235.30] 	-- 125/LoadDataBaseConfig/Utility.cs
+[1017.171704]: [enablePTR]:[true] 	-- 125/LoadDataBaseConfig/Utility.cs
+[1017.171757]: {http://www.w3.org/2001/XMLSchema}element: ----> 	-- 116/SOAP_CheckOpPermissions/AmkorMRSServices.cs
+[1017.171757]: NewDataSet: ---->90160 	-- 116/SOAP_CheckOpPermissions/AmkorMRSServices.cs
+[1017.171757]: resp: ---->Success, return: True 	-- 134/SOAP_CheckOpPermissions/AmkorMRSServices.cs
+[1017.171844]: [PTR_IP]:[10.185.235.30] 	-- 125/LoadDataBaseConfig/Utility.cs
+[1017.171844]: [enablePTR]:[true] 	-- 125/LoadDataBaseConfig/Utility.cs
+[1017.171854]: {http://www.w3.org/2001/XMLSchema}element: ----> 	-- 116/SOAP_CheckOpPermissions/AmkorMRSServices.cs
+[1017.171854]: NewDataSet: ---->90160 	-- 116/SOAP_CheckOpPermissions/AmkorMRSServices.cs
+[1017.171854]: resp: ---->Success, return: True 	-- 134/SOAP_CheckOpPermissions/AmkorMRSServices.cs
+[1017.171912]: Printer IP: [10.185.235.30] 	-- 16/ConnectToPrt/UtilityPrt.cs
+[1017.171912]: connecting to printer: True 	-- 36/ConnectToPrt/UtilityPrt.cs
+[1017.171930]: Printer IP: [10.185.235.30] 	-- 16/ConnectToPrt/UtilityPrt.cs
+[1017.171930]: 不需要連線： PtrTcpComm.Connected: True 	-- 25/ConnectToPrt/UtilityPrt.cs
+[1017.171930]: PtrTcpComm.Write--->PtrTcpComm.Connected:True 	-- 105/SendPrintString/UtilityPrt.cs
+[1017.171930]: update white_list set empid='90160' where SID='000000000101399791' AND TagID='00030E' 	-- 238/UpdateEmpid/objWhiteList.cs
+[1017.171944]: print time out! 	-- 67/Timer_Tick/Barcode2Print.xaml.cs
+Processlog stop!
+[1017.171951]: [PTR_IP]:[10.185.235.30] 	-- 125/LoadDataBaseConfig/Utility.cs
+[1017.171951]: [enablePTR]:[true] 	-- 125/LoadDataBaseConfig/Utility.cs
+[1017.172005]: {http://www.w3.org/2001/XMLSchema}element: ----> 	-- 116/SOAP_CheckOpPermissions/AmkorMRSServices.cs
+[1017.172005]: NewDataSet: ---->90160 	-- 116/SOAP_CheckOpPermissions/AmkorMRSServices.cs
+[1017.172006]: resp: ---->Success, return: True 	-- 134/SOAP_CheckOpPermissions/AmkorMRSServices.cs
+[1017.172015]: Printer IP: [10.185.235.30] 	-- 16/ConnectToPrt/UtilityPrt.cs
+[1017.172015]: connecting to printer: True 	-- 36/ConnectToPrt/UtilityPrt.cs
+[1017.172015]: PtrTcpComm.Write--->PtrTcpComm.Connected:True 	-- 105/SendPrintString/UtilityPrt.cs
+[1017.172015]: update white_list set empid='90160' where SID='000000000101399791' AND TagID='00030E' 	-- 238/UpdateEmpid/objWhiteList.cs
+[1017.172022]: Printer IP: [10.185.235.30] 	-- 16/ConnectToPrt/UtilityPrt.cs
+[1017.172022]: 不需要連線： PtrTcpComm.Connected: True 	-- 25/ConnectToPrt/UtilityPrt.cs
+[1017.172022]: PtrTcpComm.Write--->PtrTcpComm.Connected:True 	-- 105/SendPrintString/UtilityPrt.cs
+[1017.172022]: update white_list set empid='90160' where SID='000000000101399791' AND TagID='00030E' 	-- 238/UpdateEmpid/objWhiteList.cs
+[1017.172026]: Printer IP: [10.185.235.30] 	-- 16/ConnectToPrt/UtilityPrt.cs
+[1017.172026]: 不需要連線： PtrTcpComm.Connected: True 	-- 25/ConnectToPrt/UtilityPrt.cs
+[1017.172026]: PtrTcpComm.Write--->PtrTcpComm.Connected:True 	-- 105/SendPrintString/UtilityPrt.cs
+[1017.172026]: update white_list set empid='90160' where SID='000000000101399791' AND TagID='00030E' 	-- 238/UpdateEmpid/objWhiteList.cs
+[1017.172033]: Printer IP: [10.185.235.30] 	-- 16/ConnectToPrt/UtilityPrt.cs
+[1017.172033]: 不需要連線： PtrTcpComm.Connected: True 	-- 25/ConnectToPrt/UtilityPrt.cs
+[1017.172039]: Printer IP: [10.185.235.30] 	-- 16/ConnectToPrt/UtilityPrt.cs
+[1017.172039]: 不需要連線： PtrTcpComm.Connected: True 	-- 25/ConnectToPrt/UtilityPrt.cs
+[1017.172040]: SID:000000000000011111, TagID:, RequestNo: 	-- 174/Txt_SID_KeyDown/Barcode2Print.xaml.cs
+[1017.172057]: {http://www.w3.org/2001/XMLSchema}element: ----> 	-- 116/SOAP_CheckOpPermissions/AmkorMRSServices.cs
+[1017.172057]: NewDataSet: ---->90160 	-- 116/SOAP_CheckOpPermissions/AmkorMRSServices.cs
+[1017.172057]: resp: ---->Success, return: True 	-- 134/SOAP_CheckOpPermissions/AmkorMRSServices.cs
+[1017.172110]: Printer IP: [10.185.235.30] 	-- 16/ConnectToPrt/UtilityPrt.cs
+[1017.172110]: 不需要連線： PtrTcpComm.Connected: True 	-- 25/ConnectToPrt/UtilityPrt.cs
+[1017.172110]: PtrTcpComm.Write--->PtrTcpComm.Connected:True 	-- 105/SendPrintString/UtilityPrt.cs
+[1017.172110]: update white_list set empid='90160' where SID='000000000101399791' AND TagID='00030E' 	-- 238/UpdateEmpid/objWhiteList.cs
+[1017.172111]: print time out! 	-- 67/Timer_Tick/Barcode2Print.xaml.cs
+Processlog stop!

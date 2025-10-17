@@ -21,7 +21,7 @@ namespace TagPrinterWPF
     /// </summary>
     public partial class Barcode2Print : Window
     {
-        UtilityPrt prt;
+        //UtilityPrt prt;
         private DispatcherTimer _timer;
         int timeout = 0;
         int defaultTimeOut = 30;
@@ -34,8 +34,8 @@ namespace TagPrinterWPF
             Txt_SID.Text = "";
             Txt_SID.Focus();
 
-            prt = new UtilityPrt();
-            bool r = prt.ConnectToPrt(App.PTR_IP);
+            //prt = new UtilityPrt();
+            bool r = UtilityPrt.ConnectToPrt(App.PTR_IP);
             if (r == false)
             {
                 Lbl_Request.Foreground = new SolidColorBrush(Colors.Red);
@@ -63,7 +63,7 @@ namespace TagPrinterWPF
         {
             if (timeout == 0)
             {
-                prt.ClosePrt();
+                UtilityPrt.ClosePrt();
                 Utility.Log("print time out!");
                 timeout = -1;
             }
@@ -79,7 +79,7 @@ namespace TagPrinterWPF
             {
                 timeout = defaultTimeOut;
 
-                if (prt.ConnectToPrt(App.PTR_IP) == false)
+                if (UtilityPrt.ConnectToPrt(App.PTR_IP) == false)
                 {
                     Lbl_Request.Foreground = new SolidColorBrush(Colors.Red);
                     Lbl_Request.Content = "無法連接到打印機！";
@@ -114,7 +114,7 @@ namespace TagPrinterWPF
                     else
                     {
                         // 列印
-                        bool r = prt.SendPrintString(SID.TrimStart('0'), dao.TagID, dao.RequestNo, App.login_user);
+                        bool r = UtilityPrt.SendPrintString(SID.TrimStart('0'), dao.TagID, dao.RequestNo, App.login_user);
                         if(r == false)
                         {
                             Lbl_Request.Foreground = new SolidColorBrush(Colors.Red);

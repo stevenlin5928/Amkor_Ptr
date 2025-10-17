@@ -9,9 +9,9 @@ namespace TagPrinterWPF
 {
     class UtilityPrt
     {
-        TcpConnection PtrTcpComm;
+        static TcpConnection PtrTcpComm;
 
-        public bool ConnectToPrt(string ipAddress)
+        public static bool ConnectToPrt(string ipAddress)
         {
             Utility.Log($"Printer IP: [{App.PTR_IP}]");
 
@@ -22,6 +22,7 @@ namespace TagPrinterWPF
 
             if (PtrTcpComm != null && PtrTcpComm.Connected == true)
             {
+                Utility.Log($"不需要連線： PtrTcpComm.Connected: {PtrTcpComm.Connected}");
                 return true;
             }
 
@@ -42,7 +43,7 @@ namespace TagPrinterWPF
             return rsp;
         }
 
-        public void ClosePrt()
+        public static void ClosePrt()
         {
             try
             {
@@ -54,7 +55,7 @@ namespace TagPrinterWPF
             
         }
 
-        public bool SendPrintString(string SID, string TagID, string RequestNo, string opid)    // send print data over default printer data port
+        public static bool SendPrintString(string SID, string TagID, string RequestNo, string opid)    // send print data over default printer data port
         {
             if (App.enablePTR == false)
             {
@@ -101,7 +102,7 @@ namespace TagPrinterWPF
             {
                 if (PtrTcpComm.Connected)
                 {
-                    Utility.Log($"PtrTcpComm.Connected:{PtrTcpComm.Connected}");
+                    Utility.Log($"PtrTcpComm.Write--->PtrTcpComm.Connected:{PtrTcpComm.Connected}");
 
                     byte[] outBytes = Encoding.ASCII.GetBytes(dataToPrint);
                     PtrTcpComm.Write(outBytes);
