@@ -1,0 +1,34 @@
+﻿<Window x:Name="StartWindows" x:Class="TagPrinterWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TagPrinterWPF"
+        mc:Ignorable="d"
+        Title="MainWindow 2025-9-10 RV-01" Height="668" Width="1024" WindowStartupLocation="CenterScreen" Closing="StartWindows_Closing">
+    <StackPanel Margin="0,0,0,0">
+        <Menu Height="28" FontSize="14" FontWeight="Bold" FontFamily="Arial Black"  >
+            <MenuItem x:Name="MM_Tool" Header="1.設定[Setup]" Click="MM_Tool_Click" FontFamily="Microsoft YaHei UI" FontSize="18">
+
+                <MenuItem x:Name="MM_PrintConfig" Header="1.1:Config" Click="MM_PrintConfig_Click"></MenuItem>
+                <MenuItem x:Name="MM_Cls" Header="1.2:Clean Log" Click="MM_Cls_Click"></MenuItem>
+            </MenuItem>
+            <MenuItem x:Name="MM_Print" Header="2.列印[Print]" Click="MM_Print_Click" FontSize="18" FontFamily="Microsoft YaHei UI"></MenuItem>
+            <MenuItem x:Name="MM_StockInFromPL" Header="3.上傳入庫資料[StockIn]" Click="MM_StockIn_Click" FontFamily="Microsoft YaHei UI" FontSize="18"></MenuItem>
+            <MenuItem x:Name="MM_UploadInvData" Header="4.上傳盤點資料[StockTaking]" Click="MM_UploadInvData_Click" FontFamily="Microsoft YaHei UI" FontSize="18"></MenuItem>
+
+            <MenuItem x:Name="MM_MTRStockOut" Header="Mtr StockOut" Click="MM_MtrStockOut_Click" Visibility="Hidden"></MenuItem>
+            
+            
+        </Menu>
+        <ListBox x:Name="ListBox_Log" DisplayMemberPath="LogMessage" FontFamily="Cascadia Code"  Height="734" >
+            <ListBox.Resources>
+                <Style TargetType="{x:Type ListBoxItem}">
+                    <Setter Property="Foreground" Value="{Binding ProcMessageColor}" />
+                    <Setter Property="Background" Value="White" />
+                </Style>
+            </ListBox.Resources>
+        </ListBox>
+        
+    </StackPanel>
+</Window>

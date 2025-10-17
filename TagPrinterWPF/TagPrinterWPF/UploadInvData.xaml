@@ -1,0 +1,36 @@
+﻿<Window x:Class="TagPrinterWPF.UploadInvData"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TagPrinterWPF"
+        mc:Ignorable="d"
+        Title="UploadInvData" Height="668" Width="1024" Closing="Window_Closing">
+    <Grid>
+        <Label x:Name="Lbl_UpdateTime" Content="Label" HorizontalAlignment="Left" Margin="14,10,0,0" VerticalAlignment="Top" Width="367" FontSize="18" FontFamily="Arial Black" FontWeight="Bold"/>
+        <Button x:Name="Btn_Upload" Content="Up Load to AMS" HorizontalAlignment="Left" Margin="583,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.161,-0.189" Height="31" Width="208" FontSize="18" FontFamily="Arial Black" FontWeight="Bold" Click="Btn_Upload_Click"/>
+        <ListView x:Name="Listview_InvData" Margin="0,46,0,0" FontSize="14" FontFamily="Arial Black">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="SID" Width="260">
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding SID}" TextWrapping="Wrap" Foreground="{Binding BgColor}"/>
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
+                    <GridViewColumn Header="TagID" Width="320">
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding TagID}" TextWrapping="Wrap" Foreground="{Binding BgColor}"/>
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <Button x:Name="Btn_Load" Content="Load" HorizontalAlignment="Left" Margin="386,10,0,0" VerticalAlignment="Top" Height="31" Width="175" FontSize="18" FontFamily="Arial Black" FontWeight="Bold" Click="Btn_Load_Click"/>
+        <Label x:Name="Lbl_Empid" Content="ID:" HorizontalAlignment="Left" Margin="838,10,0,0" VerticalAlignment="Top" Height="31" Width="176" FontSize="18" FontFamily="Arial Black" FontWeight="Bold"/>
+
+    </Grid>
+</Window>

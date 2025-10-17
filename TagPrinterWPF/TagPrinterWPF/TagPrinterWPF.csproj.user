@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <Compile Update="Barcode2Print.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Print.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="RePrint.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="StockIn.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="StockInFromMtr.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="StockOutWin.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UploadInvData.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,223 @@
+[1017.133726]: [PTR_IP]:[10.185.235.30] 	-- 125/LoadDataBaseConfig/Utility.cs
+[1017.133726]: [enablePTR]:[true] 	-- 125/LoadDataBaseConfig/Utility.cs
+[1017.133804]: {http://www.w3.org/2001/XMLSchema}element: ----> 	-- 116/SOAP_CheckOpPermissions/AmkorMRSServices.cs
+[1017.133804]: NewDataSet: ---->90160 	-- 116/SOAP_CheckOpPermissions/AmkorMRSServices.cs
+[1017.133804]: resp: ---->Success, return: True 	-- 134/SOAP_CheckOpPermissions/AmkorMRSServices.cs
+[1017.133844]: [PTR_IP]:[10.185.235.30] 	-- 125/LoadDataBaseConfig/Utility.cs
+[1017.133844]: [enablePTR]:[true] 	-- 125/LoadDataBaseConfig/Utility.cs
+[1017.133859]: {http://www.w3.org/2001/XMLSchema}element: ----> 	-- 116/SOAP_CheckOpPermissions/AmkorMRSServices.cs
+[1017.133859]: NewDataSet: ---->90160 	-- 116/SOAP_CheckOpPermissions/AmkorMRSServices.cs
+[1017.133900]: resp: ---->Success, return: True 	-- 134/SOAP_CheckOpPermissions/AmkorMRSServices.cs
+[1017.133901]: Printer IP: [10.185.235.30] 	-- 16/ConnectToPrt/UtilityPrt.cs
+[1017.133901]: connecting to printer: True 	-- 35/ConnectToPrt/UtilityPrt.cs
+[1017.133904]: Printer IP: [10.185.235.30] 	-- 16/ConnectToPrt/UtilityPrt.cs
+[1017.133905]: SID:1111, TagID:, RequestNo: 	-- 170/Txt_SID_KeyDown/Barcode2Print.xaml.cs
+[1017.133921]: Printer IP: [10.185.235.30] 	-- 16/ConnectToPrt/UtilityPrt.cs
+[1017.133921]: PtrTcpComm.Connected:True 	-- 104/SendPrintString/UtilityPrt.cs
+[1017.133922]: sql:insert into white_list (whitelist_id, RequestNo, SID, TagID, lot, mc, empid, mtgroup, vendor_lot, mtr_qty, mtr_unit, remark, InOutBound,enable) values ('2025-10-17_13:39:21', 'T324121600074', '000000000101408836', '00031F', '', '', '90160', '', '', 1, '', 'DP2F', 0, 0), success! 	-- 330/Add/objWhiteList.cs
+[1017.133922]: Print list created successfully. 	-- 157/UpdatePrintState/objPrintList.cs
+[1017.133922]: SID:000000000101408836, TagID:00031F, RequestNo:T324121600074 	-- 170/Txt_SID_KeyDown/Barcode2Print.xaml.cs
+[1017.134221]: [PTR_IP]:[10.185.235.30] 	-- 125/LoadDataBaseConfig/Utility.cs
+[1017.134221]: [enablePTR]:[true] 	-- 125/LoadDataBaseConfig/Utility.cs
+[1017.134232]: {http://www.w3.org/2001/XMLSchema}element: ----> 	-- 116/SOAP_CheckOpPermissions/AmkorMRSServices.cs
+[1017.134232]: NewDataSet: ---->90160 	-- 116/SOAP_CheckOpPermissions/AmkorMRSServices.cs
+[1017.134232]: resp: ---->Success, return: True 	-- 134/SOAP_CheckOpPermissions/AmkorMRSServices.cs
+[1017.134234]: Printer IP: [10.185.235.30] 	-- 16/ConnectToPrt/UtilityPrt.cs
+[1017.134234]: connecting to printer: True 	-- 35/ConnectToPrt/UtilityPrt.cs
+[1017.134246]: Printer IP: [10.185.235.30] 	-- 16/ConnectToPrt/UtilityPrt.cs
+[1017.134246]: PtrTcpComm.Connected:True 	-- 104/SendPrintString/UtilityPrt.cs
+[1017.134248]: ERROR: Violation of PRIMARY KEY constraint 'PK__white_li__626C80C801C1F070'. Cannot insert duplicate key in object 'dbo.white_list'. The duplicate key value is (T325013000001, 000000000101399791, 000307).
+The statement has been terminated. 	-- 345/Add/objWhiteList.cs
+[1017.134248]: sql: insert into white_list (whitelist_id, RequestNo, SID, TagID, lot, mc, empid, mtgroup, vendor_lot, mtr_qty, mtr_unit, remark, InOutBound,enable) values ('2025-10-17_13:42:46', 'T325013000001', '000000000101399791', '000307', '', '', '90160', '', '', 1, '', 'DP2F', 0, 0) 	-- 346/Add/objWhiteList.cs
+[1017.134320]: print time out! 	-- 67/Timer_Tick/Barcode2Print.xaml.cs
+[1017.134321]: print time out! 	-- 67/Timer_Tick/Barcode2Print.xaml.cs
+[1017.134322]: print time out! 	-- 67/Timer_Tick/Barcode2Print.xaml.cs
+[1017.134323]: print time out! 	-- 67/Timer_Tick/Barcode2Print.xaml.cs
+[1017.134324]: print time out! 	-- 67/Timer_Tick/Barcode2Print.xaml.cs
+[1017.134325]: print time out! 	-- 67/Timer_Tick/Barcode2Print.xaml.cs
+[1017.134326]: print time out! 	-- 67/Timer_Tick/Barcode2Print.xaml.cs
+[1017.134327]: print time out! 	-- 67/Timer_Tick/Barcode2Print.xaml.cs
+[1017.134328]: print time out! 	-- 67/Timer_Tick/Barcode2Print.xaml.cs
+[1017.134329]: print time out! 	-- 67/Timer_Tick/Barcode2Print.xaml.cs
+[1017.134330]: print time out! 	-- 67/Timer_Tick/Barcode2Print.xaml.cs
+[1017.134331]: print time out! 	-- 67/Timer_Tick/Barcode2Print.xaml.cs
+[1017.134332]: print time out! 	-- 67/Timer_Tick/Barcode2Print.xaml.cs
+[1017.134333]: print time out! 	-- 67/Timer_Tick/Barcode2Print.xaml.cs
+[1017.134334]: print time out! 	-- 67/Timer_Tick/Barcode2Print.xaml.cs
+[1017.134335]: print time out! 	-- 67/Timer_Tick/Barcode2Print.xaml.cs
+[1017.134336]: print time out! 	-- 67/Timer_Tick/Barcode2Print.xaml.cs
+[1017.134337]: print time out! 	-- 67/Timer_Tick/Barcode2Print.xaml.cs
+[1017.134338]: print time out! 	-- 67/Timer_Tick/Barcode2Print.xaml.cs
+[1017.134339]: print time out! 	-- 67/Timer_Tick/Barcode2Print.xaml.cs
+[1017.134340]: print time out! 	-- 67/Timer_Tick/Barcode2Print.xaml.cs
+[1017.134341]: print time out! 	-- 67/Timer_Tick/Barcode2Print.xaml.cs
+[1017.134342]: Printer IP: [10.185.235.30] 	-- 16/ConnectToPrt/UtilityPrt.cs
+[1017.134342]: connecting to printer: True 	-- 35/ConnectToPrt/UtilityPrt.cs
+[1017.134342]: PtrTcpComm.Connected:True 	-- 104/SendPrintString/UtilityPrt.cs
+[1017.134342]: ERROR: Violation of PRIMARY KEY constraint 'PK__white_li__626C80C801C1F070'. Cannot insert duplicate key in object 'dbo.white_list'. The duplicate key value is (T325013000001, 000000000101399791, 000307).
+The statement has been terminated. 	-- 345/Add/objWhiteList.cs
+[1017.134342]: sql: insert into white_list (whitelist_id, RequestNo, SID, TagID, lot, mc, empid, mtgroup, vendor_lot, mtr_qty, mtr_unit, remark, InOutBound,enable) values ('2025-10-17_13:43:42', 'T325013000001', '000000000101399791', '000307', '', '', '90160', '', '', 1, '', 'DP2F', 0, 0) 	-- 346/Add/objWhiteList.cs
+[1017.134414]: print time out! 	-- 67/Timer_Tick/Barcode2Print.xaml.cs
+[1017.134415]: print time out! 	-- 67/Timer_Tick/Barcode2Print.xaml.cs
+[1017.134416]: print time out! 	-- 67/Timer_Tick/Barcode2Print.xaml.cs
+[1017.134417]: print time out! 	-- 67/Timer_Tick/Barcode2Print.xaml.cs
+[1017.134418]: print time out! 	-- 67/Timer_Tick/Barcode2Print.xaml.cs
+[1017.134419]: print time out! 	-- 67/Timer_Tick/Barcode2Print.xaml.cs
+[1017.134420]: print time out! 	-- 67/Timer_Tick/Barcode2Print.xaml.cs
+[1017.134421]: print time out! 	-- 67/Timer_Tick/Barcode2Print.xaml.cs
+[1017.134422]: print time out! 	-- 67/Timer_Tick/Barcode2Print.xaml.cs
+[1017.134423]: print time out! 	-- 67/Timer_Tick/Barcode2Print.xaml.cs
+[1017.134424]: print time out! 	-- 67/Timer_Tick/Barcode2Print.xaml.cs
+[1017.134425]: print time out! 	-- 67/Timer_Tick/Barcode2Print.xaml.cs
+[1017.134427]: print time out! 	-- 67/Timer_Tick/Barcode2Print.xaml.cs
+[1017.134428]: print time out! 	-- 67/Timer_Tick/Barcode2Print.xaml.cs
+[1017.134429]: print time out! 	-- 67/Timer_Tick/Barcode2Print.xaml.cs
+[1017.134430]: print time out! 	-- 67/Timer_Tick/Barcode2Print.xaml.cs
+[1017.134431]: print time out! 	-- 67/Timer_Tick/Barcode2Print.xaml.cs
+[1017.134432]: print time out! 	-- 67/Timer_Tick/Barcode2Print.xaml.cs
+[1017.134433]: print time out! 	-- 67/Timer_Tick/Barcode2Print.xaml.cs
+[1017.134434]: print time out! 	-- 67/Timer_Tick/Barcode2Print.xaml.cs
+[1017.134435]: print time out! 	-- 67/Timer_Tick/Barcode2Print.xaml.cs
+[1017.134436]: print time out! 	-- 67/Timer_Tick/Barcode2Print.xaml.cs
+[1017.134437]: print time out! 	-- 67/Timer_Tick/Barcode2Print.xaml.cs
+[1017.134438]: print time out! 	-- 67/Timer_Tick/Barcode2Print.xaml.cs
+[1017.134440]: print time out! 	-- 67/Timer_Tick/Barcode2Print.xaml.cs
+[1017.134441]: print time out! 	-- 67/Timer_Tick/Barcode2Print.xaml.cs
+[1017.134442]: print time out! 	-- 67/Timer_Tick/Barcode2Print.xaml.cs
+[1017.134443]: print time out! 	-- 67/Timer_Tick/Barcode2Print.xaml.cs
+[1017.134444]: print time out! 	-- 67/Timer_Tick/Barcode2Print.xaml.cs
+[1017.134445]: print time out! 	-- 67/Timer_Tick/Barcode2Print.xaml.cs
+[1017.134446]: print time out! 	-- 67/Timer_Tick/Barcode2Print.xaml.cs
+[1017.134447]: print time out! 	-- 67/Timer_Tick/Barcode2Print.xaml.cs
+[1017.134448]: print time out! 	-- 67/Timer_Tick/Barcode2Print.xaml.cs
+[1017.134449]: print time out! 	-- 67/Timer_Tick/Barcode2Print.xaml.cs
+[1017.134450]: print time out! 	-- 67/Timer_Tick/Barcode2Print.xaml.cs
+[1017.134451]: print time out! 	-- 67/Timer_Tick/Barcode2Print.xaml.cs
+[1017.134452]: print time out! 	-- 67/Timer_Tick/Barcode2Print.xaml.cs
+[1017.134453]: print time out! 	-- 67/Timer_Tick/Barcode2Print.xaml.cs
+[1017.134454]: print time out! 	-- 67/Timer_Tick/Barcode2Print.xaml.cs
+[1017.134455]: print time out! 	-- 67/Timer_Tick/Barcode2Print.xaml.cs
+[1017.134456]: print time out! 	-- 67/Timer_Tick/Barcode2Print.xaml.cs
+[1017.134457]: print time out! 	-- 67/Timer_Tick/Barcode2Print.xaml.cs
+[1017.134458]: print time out! 	-- 67/Timer_Tick/Barcode2Print.xaml.cs
+[1017.134459]: print time out! 	-- 67/Timer_Tick/Barcode2Print.xaml.cs
+[1017.134500]: print time out! 	-- 67/Timer_Tick/Barcode2Print.xaml.cs
+[1017.134501]: print time out! 	-- 67/Timer_Tick/Barcode2Print.xaml.cs
+[1017.134502]: print time out! 	-- 67/Timer_Tick/Barcode2Print.xaml.cs
+[1017.134503]: print time out! 	-- 67/Timer_Tick/Barcode2Print.xaml.cs
+[1017.134504]: print time out! 	-- 67/Timer_Tick/Barcode2Print.xaml.cs
+[1017.134505]: print time out! 	-- 67/Timer_Tick/Barcode2Print.xaml.cs
+[1017.134506]: print time out! 	-- 67/Timer_Tick/Barcode2Print.xaml.cs
+[1017.134507]: print time out! 	-- 67/Timer_Tick/Barcode2Print.xaml.cs
+[1017.134508]: print time out! 	-- 67/Timer_Tick/Barcode2Print.xaml.cs
+[1017.134509]: print time out! 	-- 67/Timer_Tick/Barcode2Print.xaml.cs
+[1017.134510]: print time out! 	-- 67/Timer_Tick/Barcode2Print.xaml.cs
+[1017.134511]: print time out! 	-- 67/Timer_Tick/Barcode2Print.xaml.cs
+[1017.134512]: print time out! 	-- 67/Timer_Tick/Barcode2Print.xaml.cs
+[1017.134513]: print time out! 	-- 67/Timer_Tick/Barcode2Print.xaml.cs
+[1017.134514]: print time out! 	-- 67/Timer_Tick/Barcode2Print.xaml.cs
+[1017.134516]: print time out! 	-- 67/Timer_Tick/Barcode2Print.xaml.cs
+[1017.134517]: print time out! 	-- 67/Timer_Tick/Barcode2Print.xaml.cs
+[1017.134518]: print time out! 	-- 67/Timer_Tick/Barcode2Print.xaml.cs
+[1017.134519]: print time out! 	-- 67/Timer_Tick/Barcode2Print.xaml.cs
+[1017.134519]: Printer IP: [10.185.235.30] 	-- 16/ConnectToPrt/UtilityPrt.cs
+[1017.134519]: connecting to printer: True 	-- 35/ConnectToPrt/UtilityPrt.cs
+[1017.134519]: PtrTcpComm.Connected:True 	-- 104/SendPrintString/UtilityPrt.cs
+[1017.134519]: sql:insert into white_list (whitelist_id, RequestNo, SID, TagID, lot, mc, empid, mtgroup, vendor_lot, mtr_qty, mtr_unit, remark, InOutBound,enable) values ('2025-10-17_13:45:19', 'T325013000001', '000000000101399791', '000307', '', '', '90160', '', '', 1, '', 'DP2F', 0, 0), success! 	-- 330/Add/objWhiteList.cs
+[1017.134519]: Print list created successfully. 	-- 157/UpdatePrintState/objPrintList.cs
+[1017.134519]: SID:000000000101399791, TagID:000307, RequestNo:T325013000001 	-- 170/Txt_SID_KeyDown/Barcode2Print.xaml.cs
+[1017.134551]: print time out! 	-- 67/Timer_Tick/Barcode2Print.xaml.cs
+[1017.134552]: print time out! 	-- 67/Timer_Tick/Barcode2Print.xaml.cs
+Processlog stop!
+[1017.135435]: [PTR_IP]:[10.185.235.30] 	-- 125/LoadDataBaseConfig/Utility.cs
+[1017.135435]: [enablePTR]:[true] 	-- 125/LoadDataBaseConfig/Utility.cs
+[1017.141955]: {http://www.w3.org/2001/XMLSchema}element: ----> 	-- 116/SOAP_CheckOpPermissions/AmkorMRSServices.cs
+[1017.141955]: NewDataSet: ---->90160 	-- 116/SOAP_CheckOpPermissions/AmkorMRSServices.cs
+[1017.141955]: resp: ---->Success, return: True 	-- 134/SOAP_CheckOpPermissions/AmkorMRSServices.cs
+[1017.141956]: Printer IP: [10.185.235.30] 	-- 16/ConnectToPrt/UtilityPrt.cs
+[1017.141956]: connecting to printer: True 	-- 35/ConnectToPrt/UtilityPrt.cs
+[1017.142000]: Printer IP: [10.185.235.30] 	-- 16/ConnectToPrt/UtilityPrt.cs
+[1017.142014]: SID:000000000111111222, TagID:, RequestNo: 	-- 174/Txt_SID_KeyDown/Barcode2Print.xaml.cs
+[1017.142046]: print time out! 	-- 67/Timer_Tick/Barcode2Print.xaml.cs
+[1017.142052]: Printer IP: [10.185.235.30] 	-- 16/ConnectToPrt/UtilityPrt.cs
+[1017.142052]: connecting to printer: True 	-- 35/ConnectToPrt/UtilityPrt.cs
+[1017.142104]: PtrTcpComm.Connected:True 	-- 104/SendPrintString/UtilityPrt.cs
+[1017.142107]: sql:insert into white_list (whitelist_id, RequestNo, SID, TagID, lot, mc, empid, mtgroup, vendor_lot, mtr_qty, mtr_unit, remark, InOutBound,enable) values ('2025-10-17_14:21:04', 'T325013000001', '000000000101399791', '000307', '', '', '90160', '', '', 1, '', 'DP2F', 0, 0), success! 	-- 330/Add/objWhiteList.cs
+[1017.142109]: Print list created successfully. 	-- 157/UpdatePrintState/objPrintList.cs
+[1017.142109]: SID:000000000101399791, TagID:000307, RequestNo:T325013000001 	-- 174/Txt_SID_KeyDown/Barcode2Print.xaml.cs
+[1017.142128]: Printer IP: [10.185.235.30] 	-- 16/ConnectToPrt/UtilityPrt.cs
+[1017.142128]: SID:000000000101399791, TagID:, RequestNo: 	-- 174/Txt_SID_KeyDown/Barcode2Print.xaml.cs
+[1017.142159]: print time out! 	-- 67/Timer_Tick/Barcode2Print.xaml.cs
+[1017.142220]: Printer IP: [10.185.235.30] 	-- 16/ConnectToPrt/UtilityPrt.cs
+[1017.142220]: connecting to printer: True 	-- 35/ConnectToPrt/UtilityPrt.cs
+[1017.142220]: SID:000000000101399791, TagID:, RequestNo: 	-- 174/Txt_SID_KeyDown/Barcode2Print.xaml.cs
+[1017.142227]: Printer IP: [10.185.235.30] 	-- 16/ConnectToPrt/UtilityPrt.cs
+[1017.142228]: SID:000000000101399791, TagID:, RequestNo: 	-- 174/Txt_SID_KeyDown/Barcode2Print.xaml.cs
+[1017.142258]: print time out! 	-- 67/Timer_Tick/Barcode2Print.xaml.cs
+[1017.142316]: Printer IP: [10.185.235.30] 	-- 16/ConnectToPrt/UtilityPrt.cs
+[1017.142316]: connecting to printer: True 	-- 35/ConnectToPrt/UtilityPrt.cs
+[1017.142316]: SID:000000000101399791, TagID:, RequestNo: 	-- 174/Txt_SID_KeyDown/Barcode2Print.xaml.cs
+[1017.142722]: [PTR_IP]:[10.185.235.30] 	-- 125/LoadDataBaseConfig/Utility.cs
+[1017.142722]: [enablePTR]:[true] 	-- 125/LoadDataBaseConfig/Utility.cs
+[1017.142735]: {http://www.w3.org/2001/XMLSchema}element: ----> 	-- 116/SOAP_CheckOpPermissions/AmkorMRSServices.cs
+[1017.142735]: NewDataSet: ---->90160 	-- 116/SOAP_CheckOpPermissions/AmkorMRSServices.cs
+[1017.142736]: resp: ---->Success, return: True 	-- 134/SOAP_CheckOpPermissions/AmkorMRSServices.cs
+[1017.142742]: Printer IP: [10.185.235.30] 	-- 16/ConnectToPrt/UtilityPrt.cs
+[1017.142742]: connecting to printer: True 	-- 35/ConnectToPrt/UtilityPrt.cs
+[1017.142813]: print time out! 	-- 67/Timer_Tick/Barcode2Print.xaml.cs
+Processlog stop!
+[1017.143016]: [PTR_IP]:[10.185.235.30] 	-- 125/LoadDataBaseConfig/Utility.cs
+[1017.143016]: [enablePTR]:[true] 	-- 125/LoadDataBaseConfig/Utility.cs
+[1017.143027]: {http://www.w3.org/2001/XMLSchema}element: ----> 	-- 116/SOAP_CheckOpPermissions/AmkorMRSServices.cs
+[1017.143027]: NewDataSet: ---->90160 	-- 116/SOAP_CheckOpPermissions/AmkorMRSServices.cs
+[1017.143027]: resp: ---->Success, return: True 	-- 134/SOAP_CheckOpPermissions/AmkorMRSServices.cs
+[1017.143028]: Printer IP: [10.185.235.30] 	-- 16/ConnectToPrt/UtilityPrt.cs
+[1017.143028]: connecting to printer: True 	-- 35/ConnectToPrt/UtilityPrt.cs
+[1017.143031]: Printer IP: [10.185.235.30] 	-- 16/ConnectToPrt/UtilityPrt.cs
+[1017.143031]: SID:000000000000000111, TagID:, RequestNo: 	-- 174/Txt_SID_KeyDown/Barcode2Print.xaml.cs
+[1017.143044]: {http://www.w3.org/2001/XMLSchema}element: ----> 	-- 116/SOAP_CheckOpPermissions/AmkorMRSServices.cs
+[1017.143044]: NewDataSet: ---->90160 	-- 116/SOAP_CheckOpPermissions/AmkorMRSServices.cs
+[1017.143044]: resp: ---->Success, return: True 	-- 134/SOAP_CheckOpPermissions/AmkorMRSServices.cs
+[1017.143056]: {http://www.w3.org/2001/XMLSchema}element: ----> 	-- 116/SOAP_CheckOpPermissions/AmkorMRSServices.cs
+[1017.143056]: NewDataSet: ---->90160 	-- 116/SOAP_CheckOpPermissions/AmkorMRSServices.cs
+[1017.143056]: resp: ---->Success, return: True 	-- 134/SOAP_CheckOpPermissions/AmkorMRSServices.cs
+[1017.143102]: print time out! 	-- 67/Timer_Tick/Barcode2Print.xaml.cs
+[1017.143109]: TagID: 00030E, isClecked: True 	-- 126/Btn_Upload_Click/StockIn.xaml.cs
+[1017.143109]: TagID: 000321, isClecked: True 	-- 126/Btn_Upload_Click/StockIn.xaml.cs
+[1017.143109]: TagID: 00031C, isClecked: True 	-- 126/Btn_Upload_Click/StockIn.xaml.cs
+[1017.143109]: --->DP,2F,stock-out,000000000101399791,,00000000010139979100030E,DP2F 	-- 43/SOAP_AMS_StockIn/AmkorMRSServices.cs
+[1017.143109]: --->DP,2F,stock-out,000000000101406372,,000000000101406372000321,DP2F 	-- 43/SOAP_AMS_StockIn/AmkorMRSServices.cs
+[1017.143109]: --->DP,2F,stock-out,000000000101408836,,00000000010140883600031C,DP2F 	-- 43/SOAP_AMS_StockIn/AmkorMRSServices.cs
+[1017.143109]: AMS_Services.AMS_StockIn: Fail,Amkor Biz Rule Control "DPSTOCKSIDDETAILS00000000010139979100030E" already exists. ,empid:90160 	-- 52/SOAP_AMS_StockIn/AmkorMRSServices.cs
+[1017.143128]: SQL Connection: [server=10.185.33.66;Initial Catalog=RFID_GATE;User ID=rfid;Password=@mk0r250103] 	-- 81/MM_PrintConfig_Click/MainWindow.xaml.cs
+[1017.143128]: Printer IP: [10.185.235.30] 	-- 82/MM_PrintConfig_Click/MainWindow.xaml.cs
+[1017.143128]: Printer Enable: [True] 	-- 83/MM_PrintConfig_Click/MainWindow.xaml.cs
+[1017.143132]: {http://www.w3.org/2001/XMLSchema}element: ----> 	-- 116/SOAP_CheckOpPermissions/AmkorMRSServices.cs
+[1017.143132]: NewDataSet: ---->90160 	-- 116/SOAP_CheckOpPermissions/AmkorMRSServices.cs
+[1017.143132]: resp: ---->Success, return: True 	-- 134/SOAP_CheckOpPermissions/AmkorMRSServices.cs
+[1017.143152]: startSerial:804, Hex:000324 	-- 67/CreatePrintList/objPrintList.cs
+[1017.143152]: UpdateSerialNo result: True 	-- 69/CreatePrintList/objPrintList.cs
+[1017.143152]: Creating print list for RequestNo: T325013000001, SID: 000000000101399791, TagID: 000325, PrintState: 0 	-- 78/CreatePrintList/objPrintList.cs
+[1017.143152]: Print list created successfully. 	-- 88/CreatePrintList/objPrintList.cs
+[1017.143152]: Creating print list for RequestNo: T325013000001, SID: 000000000101399791, TagID: 000326, PrintState: 0 	-- 78/CreatePrintList/objPrintList.cs
+[1017.143152]: Print list created successfully. 	-- 88/CreatePrintList/objPrintList.cs
+[1017.143152]: Creating print list for RequestNo: T325013000001, SID: 000000000101399791, TagID: 000327, PrintState: 0 	-- 78/CreatePrintList/objPrintList.cs
+[1017.143152]: Print list created successfully. 	-- 88/CreatePrintList/objPrintList.cs
+[1017.143152]: Creating print list for RequestNo: T325013000001, SID: 000000000101399791, TagID: 000328, PrintState: 0 	-- 78/CreatePrintList/objPrintList.cs
+[1017.143152]: Print list created successfully. 	-- 88/CreatePrintList/objPrintList.cs
+[1017.143152]: RequestNo: T325013000001, SID:000000000101399791, Count：4 added to print list. 	-- 271/Btn_CreatePrintList_Click/Print.xaml.cs
+Processlog stop!
+[1017.143558]: [PTR_IP]:[10.185.235.30] 	-- 125/LoadDataBaseConfig/Utility.cs
+[1017.143558]: [enablePTR]:[true] 	-- 125/LoadDataBaseConfig/Utility.cs
+[1017.143644]: {http://www.w3.org/2001/XMLSchema}element: ----> 	-- 116/SOAP_CheckOpPermissions/AmkorMRSServices.cs
+[1017.143644]: NewDataSet: ---->90160 	-- 116/SOAP_CheckOpPermissions/AmkorMRSServices.cs
+[1017.143644]: resp: ---->Success, return: True 	-- 134/SOAP_CheckOpPermissions/AmkorMRSServices.cs
+[1017.143647]: Printer IP: [10.185.235.30] 	-- 16/ConnectToPrt/UtilityPrt.cs
+[1017.143647]: connecting to printer: True 	-- 35/ConnectToPrt/UtilityPrt.cs
+[1017.143649]: Printer IP: [10.185.235.30] 	-- 16/ConnectToPrt/UtilityPrt.cs
+[1017.143650]: SID:000000000000011111, TagID:, RequestNo: 	-- 174/Txt_SID_KeyDown/Barcode2Print.xaml.cs
+[1017.143657]: Printer IP: [10.185.235.30] 	-- 16/ConnectToPrt/UtilityPrt.cs
+[1017.143657]: connecting to printer: True 	-- 35/ConnectToPrt/UtilityPrt.cs
+[1017.143659]: Printer IP: [10.185.235.30] 	-- 16/ConnectToPrt/UtilityPrt.cs
+[1017.143700]: SID:000000000000011111, TagID:, RequestNo: 	-- 174/Txt_SID_KeyDown/Barcode2Print.xaml.cs
+Processlog stop!

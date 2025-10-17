@@ -1,0 +1,17 @@
+#server=119.29.73.40;uid=yya;pwd=yya123;database=rfid_gate
+#server=127.0.0.1;uid= root;pwd=123456;database=rfid_gate
+#
+# AMKOR
+#
+#server=10.185.33.66;Initial Catalog=RFID_GATE;User ID=rfid;Password=@mk0r250103
+#server=T1WASAPDBQ01;Initial Catalog=RFID_GATE;User ID=rfid;Password=@mk0r250103
+#
+#LOCAL SQL SERVER
+#server=yh-iot;Initial Catalog=RFID_GATE;User ID=sa;Password=yhiot@2025$$
+Server=43.155.174.89,1433;Database=rfid_gate;User Id=sa;Password=Steven@2025$$;Encrypt=False;TrustServerCertificate=True;
+
+#Printer IP
+PTR_IP=10.185.235.30
+
+#enable printer
+enablePTR = false

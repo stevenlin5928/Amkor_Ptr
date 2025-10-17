@@ -1,0 +1,17 @@
+﻿<Window x:Class="TagPrinterWPF.Barcode2Print"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TagPrinterWPF"
+        mc:Ignorable="d"
+        Title="Barcode2Print" Height="320" Width="480">
+    <Grid>
+        <Label Content="SID:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="121" FontFamily="Arial Black" FontSize="48"/>
+        <TextBox x:Name="Txt_SID" HorizontalAlignment="Left" Margin="10,87,0,0" TextWrapping="Wrap" Text="000000000101399791" VerticalAlignment="Top" FontSize="28" FontWeight="Bold" FontFamily="Arial Black" Width="438" KeyDown="Txt_SID_KeyDown" TextInput="Txt_SID_TextInput"/>
+        <Label x:Name="Lbl_Request" Content="Label" HorizontalAlignment="Left" Margin="10,147,0,0" VerticalAlignment="Top" Width="438" FontSize="24" FontFamily="Arial Black" FontWeight="Bold"/>
+        <Label x:Name="Lbl_SID" Content="Label" HorizontalAlignment="Left" Margin="10,187,0,0" VerticalAlignment="Top" Width="438" FontSize="24" FontFamily="Arial Black" FontWeight="Bold"/>
+        <Label x:Name="Lbl_TagID" Content="Label" HorizontalAlignment="Left" Margin="10,227,0,0" VerticalAlignment="Top" Width="438" FontSize="24" FontFamily="Arial Black" FontWeight="Bold"/>
+
+    </Grid>
+</Window>

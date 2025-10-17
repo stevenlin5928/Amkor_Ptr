@@ -1,0 +1,43 @@
+[1016.120129]: [PTR_IP]:[10.185.235.30] 	-- 130/LoadDataBaseConfig/Utility.cs
+[1016.120129]: [enablePTR]:[true] 	-- 130/LoadDataBaseConfig/Utility.cs
+Processlog stop!
+[1016.120339]: [PTR_IP]:[10.185.235.30] 	-- 130/LoadDataBaseConfig/Utility.cs
+[1016.120339]: [enablePTR]:[true] 	-- 130/LoadDataBaseConfig/Utility.cs
+Processlog stop!
+[1016.120355]: [PTR_IP]:[10.185.235.30] 	-- 130/LoadDataBaseConfig/Utility.cs
+[1016.120355]: [enablePTR]:[true] 	-- 130/LoadDataBaseConfig/Utility.cs
+Processlog stop!
+[1016.120459]: [PTR_IP]:[10.185.235.30] 	-- 130/LoadDataBaseConfig/Utility.cs
+[1016.120459]: [enablePTR]:[true] 	-- 130/LoadDataBaseConfig/Utility.cs
+[1016.120503]: {http://www.w3.org/2001/XMLSchema}element: ----> 	-- 116/SOAP_CheckOpPermissions/AmkorMRSServices.cs
+[1016.120503]: NewDataSet: ---->90160 	-- 116/SOAP_CheckOpPermissions/AmkorMRSServices.cs
+[1016.120504]: resp: ---->Success, return: True 	-- 134/SOAP_CheckOpPermissions/AmkorMRSServices.cs
+[1016.120507]: Printer IP: [10.185.235.30] 	-- 16/ConnectToPrt/UtilityPrt.cs
+[1016.120511]: connecting to printer: True 	-- 38/ConnectToPrt/UtilityPrt.cs
+[1016.120519]: Printer IP: [10.185.235.30] 	-- 16/ConnectToPrt/UtilityPrt.cs
+[1016.120520]: SID:1111111111111111, TagID:, RequestNo: 	-- 157/Txt_SID_KeyDown/Barcode2Print.xaml.cs
+[1016.120529]: Printer IP: [10.185.235.30] 	-- 16/ConnectToPrt/UtilityPrt.cs
+[1016.120545]: SID:1111111111111111, TagID:, RequestNo: 	-- 157/Txt_SID_KeyDown/Barcode2Print.xaml.cs
+[1016.120631]: Printer IP: [10.185.235.30] 	-- 16/ConnectToPrt/UtilityPrt.cs
+[1016.120631]: PtrTcpComm.Connected:True 	-- 100/SendPrintString/UtilityPrt.cs
+[1016.120631]: sql:insert into white_list (whitelist_id, RequestNo, SID, TagID, lot, mc, empid, mtgroup, vendor_lot, mtr_qty, mtr_unit, remark, InOutBound,enable) values ('2025-10-16_12:06:31', 'T324121600074', '000000000101408836', '00031D', '', '', '90160', '', '', 1, '', 'DP2F', 0, 0), success! 	-- 330/Add/objWhiteList.cs
+[1016.120631]: Print list created successfully. 	-- 157/UpdatePrintState/objPrintList.cs
+[1016.120631]: SID:000000000101408836, TagID:00031D, RequestNo:T324121600074 	-- 157/Txt_SID_KeyDown/Barcode2Print.xaml.cs
+Processlog stop!
+[1016.123531]: [PTR_IP]:[10.185.235.30] 	-- 130/LoadDataBaseConfig/Utility.cs
+[1016.123531]: [enablePTR]:[true] 	-- 130/LoadDataBaseConfig/Utility.cs
+[1016.123556]: {http://www.w3.org/2001/XMLSchema}element: ----> 	-- 116/SOAP_CheckOpPermissions/AmkorMRSServices.cs
+[1016.123556]: NewDataSet: ---->90160 	-- 116/SOAP_CheckOpPermissions/AmkorMRSServices.cs
+[1016.123556]: resp: ---->Success, return: True 	-- 134/SOAP_CheckOpPermissions/AmkorMRSServices.cs
+[1016.123558]: Printer IP: [10.185.235.30] 	-- 16/ConnectToPrt/UtilityPrt.cs
+[1016.123600]: connecting to printer: True 	-- 38/ConnectToPrt/UtilityPrt.cs
+[1016.123626]: Printer IP: [10.185.235.30] 	-- 16/ConnectToPrt/UtilityPrt.cs
+[1016.123627]: SID:111, TagID:, RequestNo: 	-- 181/Txt_SID_KeyDown/Barcode2Print.xaml.cs
+[1016.123711]: Printer IP: [10.185.235.30] 	-- 16/ConnectToPrt/UtilityPrt.cs
+[1016.123714]: connecting to printer: True 	-- 38/ConnectToPrt/UtilityPrt.cs
+[1016.123714]: SID:111, TagID:, RequestNo: 	-- 181/Txt_SID_KeyDown/Barcode2Print.xaml.cs
+[1016.123728]: Printer IP: [10.185.235.30] 	-- 16/ConnectToPrt/UtilityPrt.cs
+[1016.123728]: PtrTcpComm.Connected:True 	-- 103/SendPrintString/UtilityPrt.cs
+[1016.123728]: sql:insert into white_list (whitelist_id, RequestNo, SID, TagID, lot, mc, empid, mtgroup, vendor_lot, mtr_qty, mtr_unit, remark, InOutBound,enable) values ('2025-10-16_12:37:28', 'T324121600074', '000000000101408836', '00031E', '', '', '90160', '', '', 1, '', 'DP2F', 0, 0), success! 	-- 330/Add/objWhiteList.cs
+[1016.123728]: Print list created successfully. 	-- 157/UpdatePrintState/objPrintList.cs
+[1016.123728]: SID:000000000101408836, TagID:00031E, RequestNo:T324121600074 	-- 181/Txt_SID_KeyDown/Barcode2Print.xaml.cs

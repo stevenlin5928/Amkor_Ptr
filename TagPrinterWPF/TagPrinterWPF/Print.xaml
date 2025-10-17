@@ -1,0 +1,80 @@
+﻿<Window x:Class="TagPrinterWPF.Print"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TagPrinterWPF"
+        mc:Ignorable="d"
+        Title="Print" Height="668" Width="1024" Closing="Window_Closing">
+    <Grid>
+        <Button x:Name="Btn_StartPrint" Content="3.Start Print" HorizontalAlignment="Left" Margin="310,10,0,0" VerticalAlignment="Top" Height="67" Width="140" FontSize="16" FontWeight="Bold" Click="Btn_Barcode2Print_Click" />
+        <Button x:Name="Btn_MRS_Refresh" Content="1.MRS Refresh" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="67" Width="140" FontSize="16" FontWeight="Bold" Click="Btn_MRS_Refresh_Click" />
+        <Button x:Name="Btn_CreatePrintList" Content="2.Create Print List" HorizontalAlignment="Left" Margin="160,10,0,0" VerticalAlignment="Top" Height="67" Width="140" FontSize="16" FontWeight="Bold" Click="Btn_CreatePrintList_Click" />
+        <ListView x:Name="List_MRS" Margin="0,82,0,0" FontSize="16" SelectionChanged="List_MRS_SelectionChanged" FontFamily="Cascadia Code">
+            <ListView.View>
+                <GridView >
+                    <GridViewColumn Header="#" Width="40" >
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <CheckBox IsChecked="{Binding Checked}" >
+                                    <TextBlock Text="{Binding index}" Foreground="{Binding BgColor}" />
+                                </CheckBox>
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
+
+                    <GridViewColumn Header="RequestNo" Width="200">
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding RequestNo}" TextWrapping="Wrap" Foreground="{Binding BgColor}"/>
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
+                    <GridViewColumn Header="SID" Width="220">
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding SID}" TextWrapping="Wrap" Foreground="{Binding BgColor}"/>
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
+
+                    <GridViewColumn Header="Qty" Width="80">
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding Qty}" TextWrapping="Wrap" Foreground="{Binding BgColor}"/>
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
+
+                    <GridViewColumn Header="Unit" Width="80">
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding Unit}" TextWrapping="Wrap" Foreground="{Binding BgColor}"/>
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
+
+                    <GridViewColumn Header="DateTime" Width="220">
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding UpdateTime}" TextWrapping="Wrap" Foreground="{Binding BgColor}"/>
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
+
+                    <GridViewColumn Header="Memo" Width="120">
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding Memo}" TextWrapping="Wrap" Foreground="{Binding BgColor}"/>
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
+
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <Button x:Name="Btn_rePrint" Content="Re-Print" HorizontalAlignment="Left" Margin="864,10,0,0" VerticalAlignment="Top" Height="67" Width="140" FontSize="16" FontWeight="Bold" Click="Btn_rePrint_Click"/>
+        <Label x:Name="Lbl_Empid" Content="Label" HorizontalAlignment="Left" Margin="526,22,0,0" VerticalAlignment="Top" Width="306" Height="47" FontSize="24" FontWeight="Bold" FontFamily="Arial Black"/>
+
+    </Grid>
+</Window>

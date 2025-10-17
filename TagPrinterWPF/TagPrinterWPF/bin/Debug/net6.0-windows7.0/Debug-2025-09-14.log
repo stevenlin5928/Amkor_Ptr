@@ -1,0 +1,29 @@
+[0914.152714]: [PTR_IP]:[10.185.235.30] 	-- 130/LoadDataBaseConfig/Utility.cs
+[0914.152714]: [enablePTR]:[false] 	-- 130/LoadDataBaseConfig/Utility.cs
+[0914.152748]: {http://www.w3.org/2001/XMLSchema}element: ----> 	-- 116/SOAP_CheckOpPermissions/AmkorMRSServices.cs
+[0914.152748]: NewDataSet: ---->90160 	-- 116/SOAP_CheckOpPermissions/AmkorMRSServices.cs
+[0914.152748]: resp: ---->Success, return: True 	-- 134/SOAP_CheckOpPermissions/AmkorMRSServices.cs
+[0914.153001]: Serial No: 250905152552 	-- 123/getInventoryStock/objInventoryStock.cs
+[0914.153053]: -->data length:5, ProdLine:DP, Floor:2F, empid:90160 	-- 75/SOAP_AMS_UpdSIDStocktaking/AmkorMRSServices.cs
+[0914.153053]: data: 000000000101356554000302 	-- 77/SOAP_AMS_UpdSIDStocktaking/AmkorMRSServices.cs
+[0914.153053]: data: 000000000101429033000303 	-- 77/SOAP_AMS_UpdSIDStocktaking/AmkorMRSServices.cs
+[0914.153053]: data: 000000000101429033000304 	-- 77/SOAP_AMS_UpdSIDStocktaking/AmkorMRSServices.cs
+[0914.153053]: data: 000000000101429033000305 	-- 77/SOAP_AMS_UpdSIDStocktaking/AmkorMRSServices.cs
+[0914.153053]: data: 000000000101429033000306 	-- 77/SOAP_AMS_UpdSIDStocktaking/AmkorMRSServices.cs
+[0914.153054]: AMS_UpdSIDStocktaking result: Success 	-- 85/SOAP_AMS_UpdSIDStocktaking/AmkorMRSServices.cs
+[0914.153054]: AMS_UpdSIDStocktaking success! 	-- 89/SOAP_AMS_UpdSIDStocktaking/AmkorMRSServices.cs
+[0914.153054]: sql:update inventorystockhead set enable=1, userid='90160' where SerialNo='250905152552', success! 	-- 182/setInventoryStockEnable/objInventoryStock.cs
+[0914.153710]: [PTR_IP]:[10.185.235.30] 	-- 130/LoadDataBaseConfig/Utility.cs
+[0914.153710]: [enablePTR]:[false] 	-- 130/LoadDataBaseConfig/Utility.cs
+[0914.153741]: [PTR_IP]:[10.185.235.30] 	-- 130/LoadDataBaseConfig/Utility.cs
+[0914.153741]: [enablePTR]:[true] 	-- 130/LoadDataBaseConfig/Utility.cs
+[0914.153744]: SQL Connection: [server=10.185.33.66;Initial Catalog=RFID_GATE;User ID=rfid;Password=@mk0r250103] 	-- 75/MM_PrintConfig_Click/MainWindow.xaml.cs
+[0914.153744]: Printer IP: [10.185.235.30] 	-- 76/MM_PrintConfig_Click/MainWindow.xaml.cs
+[0914.153744]: Printer Enable: [True] 	-- 77/MM_PrintConfig_Click/MainWindow.xaml.cs
+Processlog stop!
+[0914.153809]: [PTR_IP]:[10.185.235.30] 	-- 130/LoadDataBaseConfig/Utility.cs
+[0914.153809]: [enablePTR]:[true] 	-- 130/LoadDataBaseConfig/Utility.cs
+[0914.153811]: SQL Connection: [server=10.185.33.66;Initial Catalog=RFID_GATE;User ID=rfid;Password=@mk0r250103] 	-- 75/MM_PrintConfig_Click/MainWindow.xaml.cs
+[0914.153811]: Printer IP: [10.185.235.30] 	-- 76/MM_PrintConfig_Click/MainWindow.xaml.cs
+[0914.153811]: Printer Enable: [True] 	-- 77/MM_PrintConfig_Click/MainWindow.xaml.cs
+Processlog stop!
